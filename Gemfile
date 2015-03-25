@@ -87,7 +87,7 @@ end
 
 group :development do
   gem 'capistrano', '~> 2.0', :require => false
-
+  gem 'capistrano-rbenv'
   # better errors
   gem 'better_errors'
   gem 'binding_of_caller'
