@@ -17,6 +17,7 @@ gem 'haml'
 gem 'htmlentities'
 gem 'rack-ssl', :require => 'rack/ssl'   # force SSL
 gem 'rack-cors'
+
 gem 'useragent'
 gem 'decent_exposure'
 gem 'actionmailer_inline_css'
@@ -66,11 +67,10 @@ group :development, :test do
 end
 
 group :development do
-  gem 'capistrano', '~> 2.0', :require => false
-  gem 'capistrano-rbenv'
+  gem 'capistrano',         require: false
   gem 'capistrano-bundler', require: false
   gem 'capistrano-rails',   require: false
-
+  gem 'capistrano-rbenv',   require: false
   # better errors
   gem 'better_errors'
   gem 'binding_of_caller', platform: 'ruby'
