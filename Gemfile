@@ -13,7 +13,7 @@ gem 'devise'
 gem 'haml'
 gem 'htmlentities'
 gem 'rack-ssl', :require => 'rack/ssl'   # force SSL
-
+gem 'rack-cors'
 gem 'useragent'
 gem 'decent_exposure'
 gem 'strong_parameters'
